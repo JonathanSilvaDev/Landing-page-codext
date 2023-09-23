@@ -267,7 +267,7 @@ h2 {
     height: 200px;
     width: 263px;
     top: 217px;
-    border-radius: 0  0 5px 5px;
+    border-radius: 0 0 5px 5px;
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
     background: url("/assets/img/Rectangle\ 61.svg") 0% 0% / auto
 }
@@ -517,16 +517,17 @@ h2 {
     width: 178px;
 }
 
-#price-p1{
+#price-p1 {
     font-size: 40px;
     font-weight: 600;
 }
-#card-1-sec-3  p {
+
+#card-1-sec-3 p {
     line-height: 35px;
     margin-top: 20px;
 }
 
-#card-1-sec-3 button{
+#card-1-sec-3 button {
     margin-top: 43px;
     width: 233px;
     height: 56px;
@@ -562,7 +563,7 @@ h2 {
 #card-2-sec-3 #h3-1 {
     z-index: 1;
     color: #fff;
-    
+
 }
 
 #card-2-sec-3 hr {
@@ -571,18 +572,19 @@ h2 {
     z-index: 1;
 }
 
-#price-p1-1{
+#price-p1-1 {
     color: #fff;
     font-size: 40px;
     font-weight: 600;
     z-index: 1;
 }
-#card-2-sec-3  p {
+
+#card-2-sec-3 p {
     line-height: 35px;
     margin-top: 20px;
 }
 
-#card-2-sec-3 button{
+#card-2-sec-3 button {
     margin-top: 43px;
     width: 233px;
     height: 56px;
@@ -610,16 +612,17 @@ h2 {
     width: 178px;
 }
 
-#price-p1{
+#price-p1 {
     font-size: 40px;
     font-weight: 600;
 }
-#card-3-sec-3  p {
+
+#card-3-sec-3 p {
     line-height: 35px;
     margin-top: 20px;
 }
 
-#card-3-sec-3 button{
+#card-3-sec-3 button {
     margin-top: 43px;
     width: 233px;
     height: 56px;
@@ -630,3 +633,86 @@ h2 {
     color: #42B4EE;
 }
 
+/* //------------SECTION 4 ---------- */
+
+#section-4 {
+    margin: 0 auto;
+}
+
+#sec-4 {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#sec-4 p {
+    text-align: center;
+}
+
+#card-sec-4 {
+    display: flex;
+    /* width: 1140px; */
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+#card-1-sec-4,
+#card-2-sec-4,
+#card-3-sec-4 {
+
+    min-width: 360px;
+    height: 291px;
+    background-color: #FFF;
+    /* border: 1px solid #7F3CE0; */
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+
+}
+
+#card-1-sec-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#intern-0 {
+    width: 247px;
+    height: 191px;
+    /* background-color: #42B4EE; */
+}
+
+#intern-0 i {
+    width: 10px;
+    height: 10px;
+}
+
+#intern-0 p {
+    font-size: 12px;
+    line-height: 25px;
+    text-align: left;
+}
+
+#intern-1 {
+    display: flex;
+    position: relative;
+    /* gap: 20px; */
+}
+
+#intern-1 img {
+    position: absolute;
+    left: -30px;
+    top: -8px;
+
+}
+
+#intern-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    text-align: start;
+}
