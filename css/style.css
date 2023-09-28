@@ -53,6 +53,12 @@ ul {
     font-weight: 200;
 }
 
+#nav-ul {
+    max-width: 100%;
+    display: flex;
+    gap: 60px;
+}
+
 
 li:hover {
     cursor: pointer;
@@ -144,10 +150,12 @@ li:hover {
 }
 
 #hero-image {
-    height: 561px;
+    /* height: 561px;
     width: 642px;
-    padding-top: 80px;
+    padding-top: 80px; */
     /* padding-right: 80px; */
+    max-width: 100%;
+    height: auto;
 }
 
 /* SECTION 1 */
@@ -163,8 +171,8 @@ li:hover {
 }
 
 #image-sec1 {
-    width: 601px;
-    height: 471px;
+    max-width: 100%;
+    height: auto;
 }
 
 #section-1-2 {
@@ -265,7 +273,8 @@ h2 {
     top: 217px;
     border-radius: 0 0 5px 5px;
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
-    background: url("/assets/img/Rectangle\ 61.svg") 0% 0% / auto
+    background: url("/assets/img/Rectangle\ 61.svg") 0% 0% / auto;
+   
 }
 
 #img-circle-1 {
@@ -861,7 +870,6 @@ h2 {
     border-radius: 10px 10px 0 0;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 
-
 }
 
 #card-1-sec-5 div:nth-child(2)>div {
@@ -873,15 +881,12 @@ h2 {
 
 #card-1-sec-5 h3 {
     margin-top: 20px;
-    /* text-align: center; */
 }
 
 #card-1-sec-5 div:nth-child(2) p {
     margin-top: 20px;
-    /* text-align: justify; */
     font-family: "Inter";
     font-size: 14px;
-
 
 }
 
@@ -920,14 +925,16 @@ h2 {
     padding-right: 40px;
 }
 
+#footer-container li {
+    color: #CCC;
+}
+
 #card-2-sec-5 h3 {
     margin-top: 20px;
-    /* text-align: center; */
 }
 
 #card-2-sec-5 div:nth-child(2) p {
     margin-top: 20px;
-    /* text-align: justify; */
     font-family: "Inter";
     font-size: 14px;
 
@@ -974,7 +981,6 @@ footer {
     height: 504px;
     margin: 0 auto;
     justify-content: space-between;
-    /* border-bottom: #ccc; */
     border: #424DEE;
     align-items: center;
 
@@ -983,17 +989,17 @@ footer {
 #footer-container>div {
     width: 280px;
     height: 369px;
-    /* border: 1px solid #42B4EE; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+
 }
 
-#footer-container  div img {
+#footer-container div img {
     width: 152px;
     height: 50px;
 }
+
 #logo-foo {
     padding-top: 20px;
 }
@@ -1029,12 +1035,14 @@ footer {
     position: absolute;
     display: flex;
     flex-direction: column;
-    left: 50%;
     top: 50%;
     bottom: 50%;
     right: 50%;
     font-size: 18px;
+    align-items: self-start;
 }
+
+
 
 /* ---------------------footer col 3-------- */
 
@@ -1044,7 +1052,6 @@ footer {
 
 #footer-col-3 h3 {
     color: #FFF;
-    text-align: center;
     font-size: 42px;
     font-weight: 600;
     font-family: 'Inter';
@@ -1055,9 +1062,14 @@ footer {
     position: absolute;
     display: flex;
     flex-direction: column;
-    top: 180px;
-    left: 25%;
+    top: 50%;
+    bottom: 50%;
     font-size: 18px;
+    align-items: self-start;
+}
+
+#footer-col-3 div> {
+    text-align: left;
 }
 
 /* -------------------footer col 4----------------- */
@@ -1069,16 +1081,16 @@ footer {
     border: 1px solid #6e6666;
     border-radius: 5px 0 0 5px;
     background-color: transparent;
-    
+    text-align: center;
+
 }
 
-#footer-con div{
+#footer-con div {
     display: flex;
     padding-bottom: 30px;
 }
 
 #footer-con button {
-    /* padding-bottom: 20px; */
     width: 100px;
     height: 56px;
     border-left: none;
@@ -1090,19 +1102,10 @@ footer {
 
 }
 
-#footer-col-4 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    /* padding: ; */
-    /* overflow: auto; */
-}
-
 #footer-col-4 h3 {
     padding-top: 20px;
     color: #FFF;
-    text-align: center;
+    padding-right: 60px;
     font-size: 42px;
     font-weight: 600;
     font-family: 'Inter';
@@ -1113,8 +1116,11 @@ footer {
     margin-bottom: 30px;
 }
 
-main > p {
+main>p {
     background-color: #051114;
     color: #CCC;
     text-align: center;
-}  
+    padding: 30px;
+
+}
+
