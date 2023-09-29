@@ -981,7 +981,7 @@ footer {
     background-color: #051114;
     display: flex;
     height: auto;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     max-width: 1140px;
     height: 504px;
     margin: 0 auto;
@@ -993,7 +993,7 @@ footer {
 
 #footer-container>div {
     width: 280px;
-    /* height: 369px; */ /* responsividade*/
+    height: 369px; /* responsividade*/
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -1118,7 +1118,7 @@ footer {
 
 #footer-container {
     border-bottom: 1px solid #ccc;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
 main>p {
@@ -1136,6 +1136,7 @@ main>p {
     width: 100vw;
     text-align: center;
     padding: 30px;
+    color: #CCC;
 }
 
 /* //Responsividade-- */
@@ -1214,7 +1215,17 @@ main>p {
         height: auto;
         width: auto;
         flex-wrap: wrap;
+        padding-left: 125px;
+
+    }
+
+    #copy {
+        /* visibility: hidden; */
+        margin-top: 950px;
+        color: #CCC;
     }
 
 }
+
+
 
