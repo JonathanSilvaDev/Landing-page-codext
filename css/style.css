@@ -57,6 +57,7 @@ ul {
     max-width: 100%;
     display: flex;
     gap: 60px;
+    
 }
 
 
@@ -493,7 +494,7 @@ h2 {
     justify-content: center;
     align-items: center;
     width: auto;
-    height: auto; /*resposinvo*/
+    height: auto; 
     gap: 30px;
     margin: 0 auto;
     flex-wrap: wrap;
@@ -853,7 +854,7 @@ h2 {
 #section-5>div {
     display: flex;
     /* background-color: #424DEE; */
-    /* width: 1140px; */                     /*responsividade*/
+    width: 1140px;                     /*responsividade*/
     height: auto;
     margin: 0 auto;
     margin-top: 60px;
@@ -1138,10 +1139,22 @@ main>p {
 }
 
 /* //Responsividade-- */
-@media (max-width: 1162px) {
-    #footer-container {
-        /* display: flex; */
-        /* flex-wrap: wrap; */
+@media (max-width: 1162px) {  /*1162px*/
+
+
+
+    body,html {
+        /* margin: 0 auto; */
+        background-color: orange;
+        overflow-x: hidden;
+    }
+ 
+    #nav-ul {
+        max-width: 100%;
+        display: flex;
+        gap: 60px;
+        flex-wrap: wrap;
+        
     }
 
     #main-hero {
@@ -1161,11 +1174,39 @@ main>p {
         flex-wrap: wrap;
     }
 
+
+    #card-sec-3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: auto; /*resposinvo*/
+        gap: 30px;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+
+    #btn-grupo {
+        width: 100%;
+    
+    }
+
     #section-5 > div {
         flex-wrap: wrap;
         display: flex;
     }
 
+    #section-5>div {
+        display: flex;
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 60px;
+        gap: 30px;
+        margin-bottom: 140px;
+        justify-content: center;
+    }
+    
 
     #footer-container {
         display: flex;
