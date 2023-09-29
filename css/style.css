@@ -274,7 +274,7 @@ h2 {
     border-radius: 0 0 5px 5px;
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
     background: url("/assets/img/Rectangle\ 61.svg") 0% 0% / auto;
-   
+
 }
 
 #img-circle-1 {
@@ -492,10 +492,11 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 1140px;
-    height: 480px;
+    width: auto;
+    height: auto; /*resposinvo*/
     gap: 30px;
     margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 #card-1-sec-3,
@@ -852,8 +853,8 @@ h2 {
 #section-5>div {
     display: flex;
     /* background-color: #424DEE; */
-    width: 1140px;
-    height: 650px;
+    /* width: 1140px; */                     /*responsividade*/
+    height: auto;
     margin: 0 auto;
     margin-top: 60px;
     gap: 30px;
@@ -977,6 +978,8 @@ footer {
 
 #footer-container {
     display: flex;
+    height: auto;
+    flex-wrap: wrap;
     width: 1140px;
     height: 504px;
     margin: 0 auto;
@@ -1121,6 +1124,45 @@ main>p {
     color: #CCC;
     text-align: center;
     padding: 30px;
+
+}
+
+
+/* //Responsividade-- */
+@media (max-width: 1162px) {
+    #footer-container {
+        /* display: flex; */
+        /* flex-wrap: wrap; */
+    }
+
+    #main-hero {
+        flex-wrap: wrap;
+    }
+
+    #hero-image {
+        visibility: hidden;
+    }
+
+    #section-1 {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    #card-sec-1 {
+        flex-wrap: wrap;
+    }
+
+    #section-5 > div {
+        flex-wrap: wrap;
+        display: flex;
+    }
+
+    #footer-container {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
 
 }
 
