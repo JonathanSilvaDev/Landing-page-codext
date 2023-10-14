@@ -1150,7 +1150,7 @@ main>p {
   body,
   html {
     /* margin: 0 auto; */
-    background-color: orange;
+    /* background-color: orange; */
     overflow-x: hidden;
   }
 
@@ -1231,3 +1231,27 @@ main>p {
   }
 
 }
+
+@media screen and (max-width: 1151px) {
+  nav {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  nav {
+    max-width: 70%;
+  }
+  nav img {
+    visibility: hidden;
+  }
+
+  nav button {
+    visibility: hidden;
+  }
+
+  nav{
+    margin-right: 200px;
+  }
+}
+
