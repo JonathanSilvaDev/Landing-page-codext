@@ -2,392 +2,399 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Codext</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="css/style.css">
+  <title>Codext</title>
 </head>
 
 <body>
 
-    <main>
-        <header>
-            <nav>
+  <main>
+    <header>
+      <nav>
 
-                <div #img-log>
-                    <img src="assets/img/logo.svg" alt="logo">
+        <div #img-log>
+          <img src="assets/img/logo.svg" alt="logo">
+        </div>
+
+        <div id="nav-ul">
+          <div>
+            <ul>
+              <li>Home </li>
+              <li>Services </li>
+              <li>Price </li>
+              <li>Testemunials </li>
+              <li>Blog </li>
+            </ul>
+
+          </div>
+
+          <div>
+            <button id="btn-cta">
+              FREE TRIAL
+            </button>
+          </div>
+        </div>
+
+      </nav>
+    </header>
+
+    <!-- ---------------------------------------MAIN HERO ----------------------------- -->
+    <section id="main-hero">
+
+      <div id="hero" data-aos="fade-up" data-aos-delay="200">
+        <div id="hero-1">Codext one of the best system in SAAS.</div>
+        <div id="hero-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. A nulla nulla etiam turpis
+          quam
+          diam et. Arcu nisi, sed aenean sit nisl.</div>
+        <div id="ref-align">
+          <button id="hero-3">Try a live demo</button>
+        </div>
+      </div>
+      <div>
+        <img id="hero-image" src="assets/img/image-hero.svg" alt="" data-aos="fade-up">
+      </div>
+
+    </section>
+
+    <!-- -----------------------------------SECTION 1--------------------------- -->
+    <section id="section-1" data-aos="fade-up" data-aos-delay="200">
+      <div>
+        <img id="image-sec1" src="assets/img/image-sec-1.svg" alt="image">
+      </div>
+
+      <div id="section-1-2">
+        <h2>It’s helpful for operating system</h2>
+        <div>
+          <div class="arrow-align-1">
+            <img src="assets/img/arrow.svg">
+            <h3>Ultra fast & Secure</h3>
+          </div>
+          <!-- <br> -->
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. vitae velit proin justo, elementum siIn
+            morbi</p>
+        </div>
+
+        <div>
+          <div class="arrow-align-2">
+            <img src="assets/img/arrow-green.svg">
+            <h3>Allows customization</h3>
+          </div>
+          <!-- <br> -->
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. vitae velit proin justo, elementum siIn
+            morbi</p>
+        </div>
+
+        <div>
+          <div class="arrow-align-3">
+            <img src="assets/img/arrow-blue.svg">
+            <h3>Smart contract</h3>
+          </div>
+          <!-- <br> -->
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. vitae velit proin justo, elementum siIn
+            morbi</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- --------------------------SECTION 2 -------------------- -->
+
+    <section id="section-2" data-aos="fade-up" data-aos-delay="300">
+
+      <h2>We Provides best Feature <br>for customar</h2>
+
+      <div id="card-sec-1">
+        <div class="card-1">
+          <img id="img-circle-1" src="assets/img/Group 411.svg">
+          <h3>Clean Code</h3>
+          <p id="p1">Lorem ipsum dolor sit amet ecte adipiscing elitIpsum.</p>
+          <div id="shape"></div>
+          <img id="img-arrow-1" src="assets/img/Group 11.svg">
+        </div>
+
+        <div class="card-2">
+          <img id="img-circle-2" src="assets/img/Group 412.svg" alt="">
+          <h3>Data Analytic</h3>
+          <p id="p2">Lorem ipsum dolor sit amet ecte adipiscing elitIpsum.</p>
+          <img id="img-arrow-2" src="assets/img/Group 11.svg">
+        </div>
+
+        <div class="card-3">
+          <img id="img-circle-3" src="assets/img/Group 413.svg" alt="">
+          <h3>Fully Secured</h3>
+          <p id="p3">Lorem ipsum dolor sit amet ecte adipiscing elitIpsum.</p>
+          <img id="img-arrow-3" src="assets/img/Group 11.svg">
+        </div>
+
+        <div class="card-4">
+          <img id="img-circle-4" src="assets/img/Group 414.svg" alt="">
+          <h3>24/7 Support</h3>
+          <p id="p4">Lorem ipsum dolor sit amet ecte adipiscing elitIpsum.</p>
+          <img id="img-arrow-4" src="assets/img/Group 11.svg">
+        </div>
+      </div>
+
+    </section>
+    <!-- -------------------------------------SECTION 3---------------------- -->
+    <section id="section-3" data-aos="fade-up" data-aos-delay="200">
+
+      <h2>Choose your best pricing plan</h2>
+
+      <div id="section-3-div1">
+        <div>
+          <h3>Added for Monthly</h3>
+        </div>
+        <div><button>
+            <div id="i"></div>
+          </button></div>
+        <div>
+          <p>Yearly</p>
+        </div>
+      </div>
+
+      <div id="card-sec-3">
+        <div id="card-1-sec-3" data-aos="zoom-in-up" data-aos-delay="150">
+          <h3>Start-up</h3>
+          <hr>
+          <p id="price-p1">$10/mo</p>
+          <div>
+            <p>Easy Customizable <br> Commercia license <br> Singal user license <br> Hotline support 24/7
+            </p>
+          </div>
+          <button>TRY THIS PACKAGE</button>
+        </div>
+
+        <div id="card-2-sec-3" data-aos="zoom-in-up" data-aos-delay="200">
+          <div class="shape-2"></div>
+          <h3 id="h3-1">Classic</h3>
+          <hr>
+          <p id="price-p1-1">$30/mo</p>
+          <div>
+            <p>Easy Customizable <br> Commercia license <br> Singal user license <br> Hotline support 24/7
+            </p>
+          </div>
+          <button>TRY THIS PACKAGE</button>
+        </div>
+
+        <div id="card-3-sec-3" data-aos="zoom-in-up" data-aos-delay="250">
+          <h3>Premium</h3>
+          <hr>
+          <p id="price-p1">$49/mo</p>
+          <div>
+            <p>Easy Customizable <br> Commercia license <br> Singal user license <br> Hotline support 24/7
+            </p>
+          </div> 
+          <button>TRY THIS PACKAGE</button>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- -------------------------------------SECTION 4---------------------- -->
+
+    <section id="section-4" data-aos="fade-up" data-aos-delay="200">
+      <div id="sec-4">
+        <div>
+          <h2>Let’s see our User’s Review</h2>
+        </div>
+
+        <div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque tellus <br>
+            interdum venenatis auctor et nibh. Rhoncus a, sed lobortis nisi.</p>
+        </div>
+
+        <div id="card-sec-4">
+
+          <div id="card-1-sec-4" data-aos="zoom-in">
+            <div id="intern-0">
+              <div id="intern-1">
+                <img src="assets/img/quote.svg">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit elit nunc donec elit
+                  iaculis arcu. Quis fe........</p>
+              </div>
+
+              <div id="intern-2" >
+                <div><img src="assets/img/Ellipse 20.svg" alt=""></div>
+                <div>
+                  <h3>Wilson Bergson</h3>
+                  <p>Marketing manager</p>
                 </div>
+              </div>
 
-                <div id="nav-ul">
-                    <div>
-                        <ul>
-                            <li>Home </li>
-                            <li>Services </li>
-                            <li>Price </li>
-                            <li>Testemunials </li>
-                            <li>Blog </li>
-                        </ul>
-
-                    </div>
-
-                    <div>
-                        <button id="btn-cta">
-                            FREE TRIAL
-                        </button>
-                    </div>
-                </div>
-
-            </nav>
-        </header>
-
-        <!-- ---------------------------------------MAIN HERO ----------------------------- -->
-        <section id="main-hero">
-
-            <div id="hero">
-                <div id="hero-1">Codext one of the best system in SAAS.</div>
-                <div id="hero-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. A nulla nulla etiam turpis
-                    quam
-                    diam et. Arcu nisi, sed aenean sit nisl.</div>
-                <div id="ref-align">
-                    <button id="hero-3">Try a live demo</button>
-                </div>
             </div>
+          </div>
+
+          <div id="card-2-sec-4" data-aos="zoom-in">
+            <div id="intern-0">
+              <div id="intern-1">
+                <img src="assets/img/quote.svg">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit elit nunc donec elit
+                  iaculis arcu. Quis fe........</p>
+              </div>
+
+              <div id="intern-2">
+                <div><img src="assets/img/Ellipse 20 (1).svg" alt=""></div>
+                <div>
+                  <h3>Zaire Aminoff</h3>
+                  <p>Marketing manager</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div id="card-3-sec-4" data-aos="zoom-in">
+            <div id="intern-0">
+              <div id="intern-1">
+                <img src="assets/img/quote.svg">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit elit nunc donec elit
+                  iaculis arcu. Quis fe........</p>
+              </div>
+
+              <div id="intern-2">
+                <div><img src="assets/img/Ellipse 20 (2).svg" alt=""></div>
+                <div>
+                  <h3>Ryan Press</h3>
+                  <p>Marketing manager</p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+        <div>
+
+        </div>
+      </div>
+      <div id="btn-grupo">
+        <button></button>
+        <button></button>
+        <button></button>
+      </div>
+    </section>
+
+    <section id="section-5" data-aos="fade-up" data-aos-delay="200">
+      <h2>Lastest insights news</h2>
+      <div>
+        <div id="card-1-sec-5" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+          <div>
+            <img src="assets/img/Rectangle 33.svg" alt="">
+          </div>
+          <div>
             <div>
-                <img id="hero-image" src="assets/img/image-hero.svg" alt="">
+              <p>Our Creative Team</p>
+              <p>24 September, 2023</p>
+              <p>by Stive Smithi</p>
             </div>
+            <h3>
+              Running remote offsites and onbordings
+            </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Placerat <br> fermentum, enim vel
+              adipiscing non. Lacus, nunc, at et vel <br>tellus dignissim quis.</p>
+            <button>Continue</button>
+          </div>
+        </div>
 
-        </section>
-
-        <!-- -----------------------------------SECTION 1--------------------------- -->
-        <section id="section-1">
+        <div id="card-2-sec-5" data-aos="fade-left"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+          <div>
+            <img src="assets/img/Rectangle 33 (1).svg" alt="">
+          </div>
+          <div>
             <div>
-                <img id="image-sec1" src="assets/img/image-sec-1.svg" alt="image">
+              <p>Our Creative Team</p>
+              <p>24 September, 2023</p>
+              <p>by Stive Smithi</p>
             </div>
+            <h3>
+              Running remote offsites and onbordings
+            </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Placerat <br> fermentum, enim vel
+              adipiscing non. Lacus, nunc, at et vel <br>tellus dignissim quis.</p>
+            <button>Continue</button>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
 
-            <div id="section-1-2">
-                <h2>It’s helpful for operating system</h2>
-                <div>
-                    <div class="arrow-align-1">
-                        <img src="assets/img/arrow.svg">
-                        <h3>Ultra fast & Secure</h3>
-                    </div>
-                    <!-- <br> -->
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. vitae velit proin justo, elementum siIn
-                        morbi</p>
-                </div>
+    <footer>
+      <div id="footer-container" data-aos="fade-up" data-aos-delay="200">
+        <div id="logo-foo">
+          <img src="assets/img/logo.svg" alt="">
 
-                <div>
-                    <div class="arrow-align-2">
-                        <img src="assets/img/arrow-green.svg">
-                        <h3>Allows customization</h3>
-                    </div>
-                    <!-- <br> -->
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. vitae velit proin justo, elementum siIn
-                        morbi</p>
-                </div>
+          <p>Lorem ipsum dolor sit amet, consect etur adipiscing elit. Ullamcorper purus eleifend purus
+            faucibus faucibus.</p>
 
-                <div>
-                    <div class="arrow-align-3">
-                        <img src="assets/img/arrow-blue.svg">
-                        <h3>Smart contract</h3>
-                    </div>
-                    <!-- <br> -->
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. vitae velit proin justo, elementum siIn
-                        morbi</p>
-                </div>
+          <div id="footer-social">
 
-            </div>
-        </section>
+            <img src="assets/img/social.svg" alt="">
+            <img src="assets/img/social1.svg" alt="">
+            <img src="assets/img/social2.svg" alt="">
+            <img src="assets/img/social3.svg" alt="">
 
-        <!-- --------------------------SECTION 2 -------------------- -->
+          </div>
+        </div>
 
-        <section id="section-2">
+        <div id="footer-col-2">
+          <h3>Resources</h3>
+          <div>
+            <ul>
+              <li>Services</li>
+              <li>Pricing</li>
+              <li>Testimonials</li>
+              <li>Blog</li>
+            </ul>
+          </div>
+        </div>
 
-            <h2>We Provides best Feature <br>for customar</h2>
+        <div id="footer-col-3">
+          <h3>Usefull links</h3>
+          <div>
+            <ul>
+              <li>Terms of Services</li>
+              <li>Privacy Policy</li>
+              <li>Coockie Policy</li>
+              <li>Contact Us</li>
+            </ul>
+          </div>
+        </div>
 
-            <div id="card-sec-1">
-                <div class="card-1">
-                    <img id="img-circle-1" src="assets/img/Group 411.svg">
-                    <h3>Clean Code</h3>
-                    <p id="p1">Lorem ipsum dolor sit amet ecte adipiscing elitIpsum.</p>
-                    <div id="shape"></div>
-                    <img id="img-arrow-1" src="assets/img/Group 11.svg">
-                </div>
-
-                <div class="card-2">
-                    <img id="img-circle-2" src="assets/img/Group 412.svg" alt="">
-                    <h3>Data Analytic</h3>
-                    <p id="p2">Lorem ipsum dolor sit amet ecte adipiscing elitIpsum.</p>
-                    <img id="img-arrow-2" src="assets/img/Group 11.svg">
-                </div>
-
-                <div class="card-3">
-                    <img id="img-circle-3" src="assets/img/Group 413.svg" alt="">
-                    <h3>Fully Secured</h3>
-                    <p id="p3">Lorem ipsum dolor sit amet ecte adipiscing elitIpsum.</p>
-                    <img id="img-arrow-3" src="assets/img/Group 11.svg">
-                </div>
-
-                <div class="card-4">
-                    <img id="img-circle-4" src="assets/img/Group 414.svg" alt="">
-                    <h3>24/7 Support</h3>
-                    <p id="p4">Lorem ipsum dolor sit amet ecte adipiscing elitIpsum.</p>
-                    <img id="img-arrow-4" src="assets/img/Group 11.svg">
-                </div>
-            </div>
-
-        </section>
-        <!-- -------------------------------------SECTION 3---------------------- -->
-        <section id="section-3">
-
-            <h2>Choose your best pricing plan</h2>
-
-            <div id="section-3-div1">
-                <div>
-                    <h3>Added for Monthly</h3>
-                </div>
-                <div><button>
-                        <div id="i"></div>
-                    </button></div>
-                <div>
-                    <p>Yearly</p>
-                </div>
-            </div>
-
-            <div id="card-sec-3">
-                <div id="card-1-sec-3">
-                    <h3>Start-up</h3>
-                    <hr>
-                    <p id="price-p1">$10/mo</p>
-                    <div>
-                        <p>Easy Customizable <br> Commercia license <br> Singal user license <br> Hotline support 24/7
-                        </p>
-                    </div>
-                    <button>TRY THIS PACKAGE</button>
-                </div>
-
-                <div id="card-2-sec-3">
-                    <div class="shape-2"></div>
-                    <h3 id="h3-1">Classic</h3>
-                    <hr>
-                    <p id="price-p1-1">$30/mo</p>
-                    <div>
-                        <p>Easy Customizable <br> Commercia license <br> Singal user license <br> Hotline support 24/7
-                        </p>
-                    </div>
-                    <button>TRY THIS PACKAGE</button>
-                </div>
-
-                <div id="card-3-sec-3">
-                    <h3>Premium</h3>
-                    <hr>
-                    <p id="price-p1">$49/mo</p>
-                    <div>
-                        <p>Easy Customizable <br> Commercia license <br> Singal user license <br> Hotline support 24/7
-                        </p>
-                    </div>
-                    <button>TRY THIS PACKAGE</button>
-                </div>
-            </div>
-            </div>
-        </section>
-
-        <!-- -------------------------------------SECTION 4---------------------- -->
-
-        <section id="section-4">
-            <div id="sec-4">
-                <div>
-                    <h2>Let’s see our User’s Review</h2>
-                </div>
-
-                <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque tellus <br>
-                        interdum venenatis auctor et nibh. Rhoncus a, sed lobortis nisi.</p>
-                </div>
-
-                <div id="card-sec-4">
-
-                    <div id="card-1-sec-4">
-                        <div id="intern-0">
-                            <div id="intern-1">
-                                <img src="assets/img/quote.svg">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit elit nunc donec elit
-                                    iaculis arcu. Quis fe........</p>
-                            </div>
-
-                            <div id="intern-2">
-                                <div><img src="assets/img/Ellipse 20.svg" alt=""></div>
-                                <div>
-                                    <h3>Wilson Bergson</h3>
-                                    <p>Marketing manager</p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div id="card-2-sec-4">
-                        <div id="intern-0">
-                            <div id="intern-1">
-                                <img src="assets/img/quote.svg">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit elit nunc donec elit
-                                    iaculis arcu. Quis fe........</p>
-                            </div>
-
-                            <div id="intern-2">
-                                <div><img src="assets/img/Ellipse 20 (1).svg" alt=""></div>
-                                <div>
-                                    <h3>Zaire Aminoff</h3>
-                                    <p>Marketing manager</p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div id="card-3-sec-4">
-                        <div id="intern-0">
-                            <div id="intern-1">
-                                <img src="assets/img/quote.svg">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit elit nunc donec elit
-                                    iaculis arcu. Quis fe........</p>
-                            </div>
-
-                            <div id="intern-2">
-                                <div><img src="assets/img/Ellipse 20 (2).svg" alt=""></div>
-                                <div>
-                                    <h3>Ryan Press</h3>
-                                    <p>Marketing manager</p>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-
-                <div>
-
-                </div>
-            </div>
-            <div id="btn-grupo">
-                <button></button>
-                <button></button>
-                <button></button>
-            </div>
-        </section>
-
-        <section id="section-5">
-            <h2>Lastest insights news</h2>
+        <div id="footer-col-4">
+          <h3>Newsletter</h3>
+          <p>Sign up and receive the lastest news <br> via email.</p>
+          <div id="footer-con">
             <div>
-                <div id="card-1-sec-5">
-                    <div>
-                        <img src="assets/img/Rectangle 33.svg" alt="">
-                    </div>
-                    <div>
-                        <div>
-                            <p>Our Creative Team</p>
-                            <p>24 September, 2023</p>
-                            <p>by Stive Smithi</p>
-                        </div>
-                        <h3>
-                            Running remote offsites and onbordings
-                        </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Placerat <br> fermentum, enim vel
-                            adipiscing non. Lacus, nunc, at et vel <br>tellus dignissim quis.</p>
-                        <button>Continue</button>
-                    </div>
-                </div>
+              <input type="email" placeholder="Email address">
+              <button>Send</button>
 
-                <div id="card-2-sec-5">
-                    <div>
-                        <img src="assets/img/Rectangle 33 (1).svg" alt="">
-                    </div>
-                    <div>
-                        <div>
-                            <p>Our Creative Team</p>
-                            <p>24 September, 2023</p>
-                            <p>by Stive Smithi</p>
-                        </div>
-                        <h3>
-                            Running remote offsites and onbordings
-                        </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Placerat <br> fermentum, enim vel
-                            adipiscing non. Lacus, nunc, at et vel <br>tellus dignissim quis.</p>
-                        <button>Continue</button>
-                    </div>
-                </div>
             </div>
-            </div>
-        </section>
+          </div>
 
-        <footer>
-            <div id="footer-container">
-                <div id="logo-foo">
-                    <img src="assets/img/logo.svg" alt="">
+        </div>
 
-                    <p>Lorem ipsum dolor sit amet, consect etur adipiscing elit. Ullamcorper purus eleifend purus
-                        faucibus faucibus.</p>
 
-                    <div id="footer-social">
 
-                        <img src="assets/img/social.svg" alt="">
-                        <img src="assets/img/social1.svg" alt="">
-                        <img src="assets/img/social2.svg" alt="">
-                        <img src="assets/img/social3.svg" alt="">
+    </footer>
+    <div id="copy">
+      <p>Copyright 2021 The Codext All Rights Reserved. Cloned by <a
+          href="https://github.com/JonathanSilvaDev">Jonathan</a> from <a
+          href="https://www.figma.com/file/gUJ7KVymvsSWVCSJmEPjuM/Codext---Saas-Landing-Page-UI-Design-(Community)?type=design&t=diaAYe88dpvGPsXA-6">Figma</a>
+      </p>
+    </div>
 
-                    </div>
-                </div>
-
-                <div id="footer-col-2">
-                    <h3>Resources</h3>
-                    <div>
-                        <ul>
-                            <li>Services</li>
-                            <li>Pricing</li>
-                            <li>Testimonials</li>
-                            <li>Blog</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div id="footer-col-3">
-                    <h3>Usefull links</h3>
-                    <div>
-                        <ul>
-                            <li>Terms of Services</li>
-                            <li>Privacy Policy</li>
-                            <li>Coockie Policy</li>
-                            <li>Contact Us</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div id="footer-col-4">
-                    <h3>Newsletter</h3>
-                    <p>Sign up and receive the lastest news <br> via email.</p>
-                    <div id="footer-con">
-                        <div>
-                            <input type="email" placeholder="Email address">
-                            <button>Send</button>
-
-                        </div>
-                    </div>
-
-                </div>
-
-                
-
-            </footer>
-            <div id="copy">
-            <p>Copyright 2021 The Codext All Rights Reserved. Cloned by <a
-                    href="https://github.com/JonathanSilvaDev">Jonathan</a> from <a
-                    href="https://www.figma.com/file/gUJ7KVymvsSWVCSJmEPjuM/Codext---Saas-Landing-Page-UI-Design-(Community)?type=design&t=diaAYe88dpvGPsXA-6">Figma</a>
-                Figma.</p>
-            </div>
-        
-    </main>
+  </main>
 
 </body>
 
